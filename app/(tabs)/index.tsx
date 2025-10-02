@@ -15,7 +15,7 @@ export default function HomeScreen() {
           style={styles.reactLogo}
         />
       }>
-        <ThemedView style={{height: 300, width: 500}}>
+        <ThemedView style={{height: 300, width: 350}}>
           <Calendar />
         </ThemedView>
     </ParallaxScrollView>

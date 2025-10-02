@@ -3,7 +3,7 @@ import React from 'react';
 
 const Calendar = () => {
   return (
-    <CalendarContainer>
+    <CalendarContainer onLoad={() => console.log("LOADED")}>
       <CalendarHeader />
       <CalendarBody />
     </CalendarContainer>
